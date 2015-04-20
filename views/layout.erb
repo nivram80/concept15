@@ -2,9 +2,15 @@
 <html>
 <head>
 	<title>Concept Electric Company, Inc.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="<%= url('/stylesheets/global.css') %>" rel="stylesheet" type="text/css">
+	<link href="<%= url('/stylesheets/nav.css') %>" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+
+	<%= erb :mobile_nav %>
 
 	<%= yield %>
 

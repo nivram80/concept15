@@ -1,0 +1,30 @@
+@import "settings";
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 40px;
+	background-color: $concept-black;
+	color: $white;
+	text-align: center;
+	.menu-toggle {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 24px;
+		height: 20px;
+		background: url(/images/bars.png) no-repeat;
+	}
+	div {
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 11px;
+	}
+}
+
+#mobile-nav {
+	display: none;
+}

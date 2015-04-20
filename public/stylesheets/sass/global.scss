@@ -1,8 +1,53 @@
+@import "settings";
+
 body {
 	margin: 0;
 	padding: 0;
 	background: url(/images/graph_paper_bg1.png);
+	font-size: 16px;
+	font-family: $main-font;
+	color: $concept-black;
 }
 h1 {
-	color: green;
+
 }
+h2 {
+	font-size: 1.5rem;
+}
+p {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+section {
+	padding: 50px 15px;
+}
+.section-title {
+	width: 100%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	border-bottom: 7px double $concept-green;
+}
+.services {
+	div {
+		width: 205px;
+		height: 205px;
+		margin: 50px auto 0 auto;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 1.25rem;
+		background-repeat: no-repeat;
+	}
+	.commercial {
+		background: url(/images/services_commercial.png) 0 15px;
+	}
+	.industrial {
+		background: url(/images/services_industrial.png) 0 15px;
+	}
+	.residential {
+		background: url(/images/services_residential.png) 0 15px;
+	}
+	.underground {
+		background: url(/images/services_underground.png) 0 15px;
+	}
+}
+
