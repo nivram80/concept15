@@ -8,7 +8,8 @@ header {
   height: 40px;
   background-color: #464543;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  z-index: 3; }
   header #menu-toggle {
     position: absolute;
     top: 5px;
@@ -23,6 +24,27 @@ header {
     padding-top: 9px; }
 
 #mobile-nav {
-  display: none; }
+  height: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: #312f2b;
+  z-index: 2; }
+  #mobile-nav ul {
+    margin: 0;
+    padding: 0; }
+    #mobile-nav ul li {
+      list-style-type: none; }
+      #mobile-nav ul li a {
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid #747474;
+        color: #fff;
+        padding: 12px 0 12px 15px;
+        transition: all 0.75s ease; }
+        #mobile-nav ul li a:hover {
+          background-color: #464543; }
 
 /*# sourceMappingURL=nav.css.map */
