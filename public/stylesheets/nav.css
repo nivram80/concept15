@@ -9,18 +9,18 @@ header {
   background-color: #464543;
   color: #fff;
   text-align: center; }
-  header .menu-toggle {
+  header #menu-toggle {
     position: absolute;
     top: 5px;
-    left: 5px;
+    left: 8px;
     width: 24px;
     height: 20px;
     background: url(/images/bars.png) no-repeat; }
   header div {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 11px; }
+    padding-top: 9px; }
 
 #mobile-nav {
   display: none; }
