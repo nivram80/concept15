@@ -9,6 +9,7 @@ header {
 	background-color: $concept-black;
 	color: $white;
 	text-align: center;
+	border-bottom: 1px solid #747474;
 	z-index: 3;
 	#menu-toggle {
 		position: absolute;
@@ -16,7 +17,12 @@ header {
 		left: 8px;
 		width: 24px;
 		height: 20px;
+		color: transparent;
 		background: url(/images/bars.png) no-repeat;
+	}
+	#menu-title {
+		width: 100%;
+		overflow: hidden;
 	}
 	div {
 		font-size: 1.3rem;
@@ -27,10 +33,11 @@ header {
 }
 
 #mobile-nav {
-	height: 0;
+	display: none;
 	position: absolute;
 	top: 40px;
 	left: 0;
+	right: 0;
 	width: 100%;
 	background-color: #312f2b;
 	z-index: 2;
