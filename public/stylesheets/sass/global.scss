@@ -34,6 +34,12 @@ img {
 		margin: 0;
 	}
 }
+.mobile-logo {
+	margin-top: 15px;
+	padding-top: 50px;
+	width: 100%;
+	border: none;
+}
 section {
 	padding: 0 15px;
 }
@@ -47,11 +53,12 @@ section {
 	div {
 		width: 205px;
 		height: 205px;
-		margin: 50px auto 0 auto;
+		margin: 25px auto 0 auto;
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 1.25rem;
 		background-repeat: no-repeat;
+		transition: all 0.75s ease;
 	}
 	.commercial {
 		background: url(/images/services_commercial.png) 0 15px;
@@ -64,6 +71,18 @@ section {
 	}
 	.underground {
 		background: url(/images/services_underground.png) 0 15px;
+	}
+	.commercial:hover {
+		background: url(/images/services_commercial_hover.png) 0 15px;
+	}
+	.industrial:hover {
+		background: url(/images/services_industrial_hover.png) 0 15px;
+	}
+	.residential:hover {
+		background: url(/images/services_residential_hover.png) 0 15px;
+	}
+	.underground:hover {
+		background: url(/images/services_underground_hover.png) 0 15px;
 	}
 }
 .desktop {
