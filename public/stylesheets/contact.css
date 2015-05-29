@@ -1,0 +1,22 @@
+/* Font Families */
+/* Colors */
+.call {
+  background: #474543;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center; }
+  .call h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 0; }
+  .call p {
+    color: #fff;
+    font-size: 1.75rem;
+    margin-top: 20px;
+    line-height: 0; }
+  .call a {
+    text-decoration: none;
+    color: #fff; }
+
+/*# sourceMappingURL=contact.css.map */

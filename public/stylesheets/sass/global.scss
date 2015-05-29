@@ -9,21 +9,37 @@ body {
 	color: $concept-black;
 }
 h1 {
-
+	margin: 0;
+	padding: 0;
+	height: 0;
+	color: transparent;
 }
 h2 {
 	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1rem;
 }
 p {
 	font-size: 1.2rem;
 	line-height: 1.5rem;
 }
+img {
+	border: 10px solid #fff;;
+}
+.photo-container {
+	text-align: center;
+	padding: 5px 0;
+	h3 {
+		margin: 0;
+	}
+}
 section {
-	padding: 50px 15px;
+	padding: 0 15px;
 }
 .section-title {
 	width: 100%;
-	margin: 0 auto;
+	margin: 50px auto 0 auto;
 	text-transform: uppercase;
 	border-bottom: 7px double $concept-green;
 }
@@ -49,5 +65,8 @@ section {
 	.underground {
 		background: url(/images/services_underground.png) 0 15px;
 	}
+}
+.desktop {
+	display: none;
 }
 
