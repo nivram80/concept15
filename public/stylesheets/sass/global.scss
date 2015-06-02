@@ -24,8 +24,12 @@ p {
 	font-size: 1.2rem;
 	line-height: 1.5rem;
 }
+a {
+	color: $white;
+	text-decoration: none;
+}
 img {
-	border: 10px solid #fff;;
+	border: 10px solid $white;;
 }
 .photo-container {
 	text-align: center;

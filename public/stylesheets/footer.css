@@ -1,0 +1,16 @@
+/* Font Families */
+/* Colors */
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #464543;
+  color: #fff;
+  margin-top: 25px;
+  padding: 20px 0; }
+  footer p {
+    font-size: 1rem;
+    margin: 0; }
+  footer section.attribution {
+    margin-top: 15px; }
+
+/*# sourceMappingURL=footer.css.map */

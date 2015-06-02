@@ -24,6 +24,10 @@ p {
   font-size: 1.2rem;
   line-height: 1.5rem; }
 
+a {
+  color: #fff;
+  text-decoration: none; }
+
 img {
   border: 10px solid #fff; }
 
