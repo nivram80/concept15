@@ -3,6 +3,7 @@
 footer {
   position: relative;
   bottom: 0;
+  text-align: center;
   background-color: #464543;
   color: #fff;
   margin-top: 25px;
@@ -10,7 +11,9 @@ footer {
   footer p {
     font-size: 1rem;
     margin: 0; }
-  footer section.attribution {
+  footer .address {
+    margin-top: 20px; }
+  footer .attribution {
     margin-top: 15px; }
 
 /*# sourceMappingURL=footer.css.map */

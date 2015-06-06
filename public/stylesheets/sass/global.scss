@@ -31,6 +31,17 @@ a {
 img {
 	border: 10px solid $white;;
 }
+.social-icons {
+	text-align: center;
+	img {
+		border: 0;
+		width: 46px;
+		height: 46px;
+	}
+	iframe {
+		height: 42px;
+	}
+}
 .photo-container {
 	text-align: center;
 	padding: 5px 0;

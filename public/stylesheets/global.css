@@ -31,6 +31,15 @@ a {
 img {
   border: 10px solid #fff; }
 
+.social-icons {
+  text-align: center; }
+  .social-icons img {
+    border: 0;
+    width: 46px;
+    height: 46px; }
+  .social-icons iframe {
+    height: 42px; }
+
 .photo-container {
   text-align: center;
   padding: 5px 0; }
