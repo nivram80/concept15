@@ -13,12 +13,12 @@ header {
 	z-index: 3;
 	#menu-toggle {
 		position: absolute;
-		top: 5px;
-		left: 8px;
-		width: 24px;
-		height: 20px;
+		top: 0;
+		left: 5px;
+  	width: 30px;
+  	height: 28px;
 		color: transparent;
-		background: url(/images/bars.png) no-repeat;
+		background: url(/images/menu.png) no-repeat;
 	}
 	#menu-title {
 		width: 100%;

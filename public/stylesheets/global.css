@@ -31,6 +31,10 @@ a {
 img {
   border: 10px solid #fff; }
 
+ul {
+  list-style-type: square;
+  line-height: 24px; }
+
 .social-icons {
   text-align: center; }
   .social-icons img {
@@ -61,6 +65,8 @@ section {
   text-transform: uppercase;
   border-bottom: 7px double #85c226; }
 
+.services a {
+  color: #464543; }
 .services div {
   width: 205px;
   height: 205px;

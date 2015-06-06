@@ -31,6 +31,10 @@ a {
 img {
 	border: 10px solid $white;;
 }
+ul {
+	list-style-type: square;
+	line-height: 24px;
+}
 .social-icons {
 	text-align: center;
 	img {
@@ -65,6 +69,9 @@ section {
 	border-bottom: 7px double $concept-green;
 }
 .services {
+	a {
+		color: $concept-black;
+	}
 	div {
 		width: 205px;
 		height: 205px;

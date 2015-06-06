@@ -15,3 +15,19 @@ end
 get '/contact' do
 	erb :contact
 end
+
+get '/commercial' do
+	erb :commercial
+end
+
+get '/industrial' do
+	erb :industrial
+end
+
+get '/residential' do
+	erb :residential
+end
+
+get '/underground' do
+	erb :underground
+end
