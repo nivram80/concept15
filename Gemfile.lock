@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    heroku-deflater (0.5.3)
+      rack (>= 1.4.5)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
@@ -15,5 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  heroku-deflater
   sass
   sinatra
