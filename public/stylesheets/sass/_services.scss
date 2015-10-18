@@ -49,6 +49,7 @@
 /* Landscape - iPhones 4-5 */
 @media (min-width: 480px) {
   .services {
+    height: 520px;
     .services-container {
       width: 410px;
       margin: 0 auto;
@@ -71,7 +72,11 @@
 
 /* Portrait - iPads and most Android tablets */
 @media (min-width: 768px) {
-
+  .services {
+    .services-container {
+      width: 750px;
+    }
+  }
 }
 
 /* Landscape - Desktops, iPad, and bigger Android tablets*/
