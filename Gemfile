@@ -4,7 +4,3 @@ ruby '2.2.3'
 
 gem 'sinatra'
 gem 'sass'
-
-group :production do
-  gem 'rack-zippy'
-end

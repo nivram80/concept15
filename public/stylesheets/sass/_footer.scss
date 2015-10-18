@@ -18,4 +18,15 @@ footer {
 	.attribution {
 		margin-top: 15px;
 	}
+	.social-icons {
+		text-align: center;
+		img {
+			border: 0;
+			width: 46px;
+			height: 46px;
+		}
+		iframe {
+			height: 42px;
+		}
+	}
 }
