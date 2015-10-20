@@ -11,7 +11,6 @@
 		display: block;
 		text-align: center;
 		margin: 20px auto 0;
-		padding: 0 15px;
 		.logo {
 			position: absolute;
 			left: 0;
@@ -63,7 +62,7 @@
 /* Landscape - Desktops, iPad, and bigger Android tablets*/
 @media (min-width: 1024px) {
 	.nav-large {
-		width: 1000px;
+		width: 970px;
 		.menu-left {
 			padding-left: 65px;
 			padding-right: 65px;

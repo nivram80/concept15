@@ -93,7 +93,9 @@ button {
 
 /* Landscape - iPhones 4-5 */
 @media (min-width: 480px) {
-
+	.photo-container {
+		width: 500px;
+	}
 }
 
 /* Landscape - iPhone 6 and most Android phones */
@@ -108,17 +110,36 @@ button {
 
 /* Portrait - iPads and most Android tablets */
 @media (min-width: 768px) {
+	p {
+		line-height: 28px;
+	}
 	.mobile-logo {
 		display: none;
 	}
-	.large-nav {
-		
+	button {
+		margin-top: 75px;
+	}
+	.photo-container {
+		float: right;
+		width: 40%;
+		margin-top: 15px;
+		padding-left: 35px;
+		img {
+			margin-left: -20px;
+		}
+	}
+	.portrait {
+		width: 240px;
+		margin-top: 0;
 	}
 }
 
 /* Landscape - Desktops, iPad, and bigger Android tablets*/
 @media (min-width: 1024px) {
-
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
 }
 
 /* Widescreen Desktops */

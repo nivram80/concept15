@@ -2,7 +2,9 @@
 
 footer {
 	position: relative;
+	right: 0;
 	bottom: 0;
+	left: 0;
 	text-align: center;
 	background-color: #464543;
 	color: #fff;
@@ -28,5 +30,68 @@ footer {
 		iframe {
 			height: 42px;
 		}
+		.facebook {
+			img {
+				margin-bottom: 1px;
+				height: 45px;
+			}
+		}
 	}
+}
+
+/* Portrait - iPhone 6+ and large Android phones */
+@media (min-width: 414px) {
+
+}
+
+/* Landscape - iPhones 4-5 */
+@media (min-width: 480px) {
+
+}
+
+/* Landscape - iPhone 6 and most Android phones */
+@media (min-width: 569px) {
+
+}
+
+/* Landscape - iPhone 6+ and smaller Android tablets */
+@media (min-width: 668px) {
+
+}
+
+/* Portrait - iPads and most Android tablets */
+@media (min-width: 768px) {
+	footer {
+		height: 150px;
+		position: relative;
+		.address {
+			float: left;
+			text-align: left;
+		}
+		.attribution {
+			float: right;
+			text-align: right;
+		}
+		.social-icons {
+			position: absolute;
+			top: 35px;
+			right: 0;
+			left: 0;
+		}
+	}
+}
+
+/* Landscape - Desktops, iPad, and bigger Android tablets*/
+@media (min-width: 1024px) {
+	footer {
+		.container {
+			width: 1000px;
+			margin: 0 auto;
+		}
+	}
+}
+
+/* Widescreen Desktops */
+@media (min-width: 1240px) {
+
 }
