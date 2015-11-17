@@ -90,6 +90,14 @@
 
 /* Landscape - Desktops, iPad, and bigger Android tablets*/
 @media (min-width: 1024px) {
+  .services-page {
+    .photo-container {
+      margin-top: 20px;
+      img {
+        margin-left: -100px;
+      }
+    }
+  }
   .services {
     height: 310px;
     .services-container {

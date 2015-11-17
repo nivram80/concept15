@@ -35,6 +35,14 @@ ul {
 	list-style-type: square;
 	line-height: 24px;
 }
+.col1 {
+	width: 90%;
+	float: left;
+}
+.col2 {
+	display: none;
+	text-align: center;
+}
 .photo-container {
 	text-align: center;
 	padding: 5px 0;
@@ -45,11 +53,12 @@ ul {
 		margin-left: -10px;
 	}
 	h3 {
-		margin: 0;
+		margin-left: -100px;
 	}
 }
 .portrait {
-	width: 240px;
+	width: 240px !important;
+	margin-left: 75px;
 }
 .mobile-logo {
 	margin: 15px auto 0;
@@ -88,7 +97,9 @@ button {
 
 /* Portrait - iPhone 6+ and large Android phones */
 @media (min-width: 414px) {
-
+	.col1 {
+		width: 92%;
+	}
 }
 
 /* Landscape - iPhones 4-5 */
@@ -96,16 +107,23 @@ button {
 	.photo-container {
 		width: 500px;
 	}
+	.col1 {
+		width: 93%;
+	}
 }
 
 /* Landscape - iPhone 6 and most Android phones */
 @media (min-width: 569px) {
-
+	.col1 {
+		width: 94%;
+	}
 }
 
 /* Landscape - iPhone 6+ and smaller Android tablets */
 @media (min-width: 668px) {
-
+	.col1 {
+		width: 95%;
+	}
 }
 
 /* Portrait - iPads and most Android tablets */
@@ -139,6 +157,31 @@ button {
 	.container {
 		width: 1000px;
 		margin: 0 auto;
+	}
+	.col1 {
+		width: 50%;
+		height: 425px;
+		float: left;
+	}
+	.col2 {
+		display: block;
+		width: 40%;
+		float: right;
+		.photo-container {
+			float: none;
+			width: 100%;
+			margin-top: 20px;
+			padding-left: 0;
+			img {
+				margin-left: -100px;
+			}
+		}
+		.call {
+			display: block;
+			width: 105%;
+			margin-top: 50px;
+			margin-left: -20px;
+		}
 	}
 }
 
