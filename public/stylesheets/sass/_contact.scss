@@ -59,10 +59,17 @@
 		.call {
 			display: none;
 		}
+		.col1 {
+			width: 50%;
+		}
 		.col2 {
 			height: 1050px;
+			display: block;
 			.photo-container {
 				margin-left: 40px;
+				img {
+					margin-left: -95px;
+				}
 			}
 			.call {
 				display: block;

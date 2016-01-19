@@ -137,32 +137,43 @@ button {
 	button {
 		margin-top: 75px;
 	}
-	.photo-container {
-		float: right;
-		width: 40%;
-		margin-top: 15px;
-		padding-left: 35px;
-		img {
-			margin-left: -20px;
-		}
-	}
 	.portrait {
 		width: 240px;
 		margin-top: 0;
-	}
-}
-
-/* Landscape - Desktops, iPad, and bigger Android tablets*/
-@media (min-width: 1024px) {
-	.container {
-		width: 1000px;
-		margin: 0 auto;
 	}
 	.col1 {
 		width: 50%;
 		height: 425px;
 		float: left;
 	}
+	.shortlist {
+		.col1 {
+			height: 375px;
+		}
+	}
+	.home-page {
+		.col1 {
+			height: 550px;
+		}
+	}
+	.about-us-page {
+		.col1 {
+			height: 755px;
+		}
+		.col2 .photo-container h3 {
+			margin-left: -175px;
+		}
+	}
+	.contact-page {
+		.col1 {
+			width: 95%;
+			height: 1024px;
+		}
+		.col2 {
+			display: none;
+		}
+	}
+
 	.col2 {
 		display: block;
 		width: 40%;
@@ -173,7 +184,12 @@ button {
 			margin-top: 20px;
 			padding-left: 0;
 			img {
-				margin-left: -100px;
+				margin-left: -80px;
+			}
+		}
+		.photo-container.portrait {
+			img {
+				margin-left: -175px;
 			}
 		}
 		.call {
@@ -181,6 +197,34 @@ button {
 			width: 105%;
 			margin-top: 50px;
 			margin-left: -20px;
+		}
+	}
+}
+
+/* Landscape - Desktops, iPad, and bigger Android tablets*/
+@media (min-width: 1024px) {
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.home-page {
+		.col1 {
+			height: 475px;
+		}
+	}
+	.about-us-page {
+		.col1 {
+			height: 600px;
+		}
+		.col2 .photo-container h3 {
+			margin-left: -100px;
+		}
+	}
+	.col2 {
+		.photo-container.portrait {
+			img {
+				margin-left: -100px;
+			}
 		}
 	}
 }
