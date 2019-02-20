@@ -1,3 +1,25 @@
 .addr2 {
 	display: none;
 }
+
+input.submit {
+	box-sizing: content-box;
+	width: 175px;
+	background-color: #85c226;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 40px auto 0;
+	padding: 15px 0;
+	display: block;
+	transition: background-color 0.25s ease;
+	cursor: pointer;
+	color: #fff;
+}
+
+input.submit:hover {
+	background-color: #355207;
+}
+
+.safari input.btTxt {
+    font-size: 20px;
+}

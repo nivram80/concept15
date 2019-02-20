@@ -77,18 +77,24 @@ section {
 	border-bottom: 7px double $concept-green;
 }
 button {
-	width: 135px;
-	background-color: transparent;
+	box-sizing: content-box;
+	width: 175px;
+	background-color: $concept-green;
 	font-size: 1.25rem;
 	font-weight: bold;
-	color: $concept-green;
-	border: 4px solid $concept-green;
 	border-radius: 5px;
 	margin: 40px auto 0;
-	padding: 5px;
+	padding: 15px 0;
 	display: block;
+	transition: background-color 0.25s ease;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $concept-hover-green;
+	}
+
 	a {
-		color: $concept-green;
+		color: $white;
 	}
 }
 .desktop {
