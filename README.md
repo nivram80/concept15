@@ -1,4 +1,4 @@
 # Concept Electric '15
 
 ## Run locally
-`rackup`
+run `rackup` from the command line.
