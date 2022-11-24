@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-ruby '2.4.0'
-
-gem 'sinatra', '2.0.5'
+ruby '3.1.2'
+gem 'sinatra', '= 3.0.3'
 gem 'sass'
+gem 'mustermann', '= 3.0'
+gem 'puma'
